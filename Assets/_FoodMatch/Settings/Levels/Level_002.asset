@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6764b6a37d690434b9f27871935b868a, type: 3}
+  m_Name: Level_002
+  m_EditorClassIdentifier: 
+  <TimeSeconds>k__BackingField: 60
+  <SpawnGroup>k__BackingField: {fileID: 5492094714180407016, guid: 98b77ad61aa336046b5cf6dc980dc3c5,
+    type: 3}
+  <Requirements>k__BackingField:
+  - <ItemType>k__BackingField: 2
+    <Count>k__BackingField: 3
+  - <ItemType>k__BackingField: 3
+    <Count>k__BackingField: 3
+  - <ItemType>k__BackingField: 4
+    <Count>k__BackingField: 3
+  - <ItemType>k__BackingField: 6
+    <Count>k__BackingField: 3

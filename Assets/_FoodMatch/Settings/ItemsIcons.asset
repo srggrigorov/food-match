@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5b1eec67b486244969f24bacc191ed, type: 3}
+  m_Name: ItemsIcons
+  m_EditorClassIdentifier: 
+  _icons:
+  - <ItemType>k__BackingField: 0
+    <Sprite>k__BackingField: {fileID: 21300000, guid: bb8b1df76b2ff16479c4b3fbc40def1e,
+      type: 3}
+  - <ItemType>k__BackingField: 1
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 6f6ba41097bca5d4a9b33b60d5b1d572,
+      type: 3}
+  - <ItemType>k__BackingField: 2
+    <Sprite>k__BackingField: {fileID: 21300000, guid: a30436f7f7ec878459810453b38c1e06,
+      type: 3}
+  - <ItemType>k__BackingField: 3
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 6f6af5c05f307654e89c8d983433ccb2,
+      type: 3}
+  - <ItemType>k__BackingField: 4
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 9513195851825be40b97fa68cc6c4c35,
+      type: 3}
+  - <ItemType>k__BackingField: 5
+    <Sprite>k__BackingField: {fileID: 21300000, guid: 6cca64fd01023964eac42b4e30a4cfb6,
+      type: 3}
+  - <ItemType>k__BackingField: 6
+    <Sprite>k__BackingField: {fileID: 21300000, guid: eb468c8a54714334bbdf552657f0e961,
+      type: 3}

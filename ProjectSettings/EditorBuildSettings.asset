@@ -6,6 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/_FoodMatch/Scenes/Bootstrap.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/_FoodMatch/Scenes/Menu.unity
+    guid: 2ecec8d92729db84f9eeaa1545f7342b
+  - enabled: 1
+    path: Assets/_FoodMatch/Scenes/Game.unity
+    guid: 917cd58c3974a944986f115897b824e8
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 75b631e10aa5eed4da293707cfccadf5,
+      type: 2}
