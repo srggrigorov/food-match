@@ -51,7 +51,8 @@ MonoBehaviour:
   <ItemType>k__BackingField: 5
   <Transform>k__BackingField: {fileID: 4308383732162942302}
   <Rigidbody>k__BackingField: {fileID: -6335826733468560140}
-  _colliders: []
+  _colliders:
+  - {fileID: 9215094016494393241}
   _renderer: {fileID: 1994533217645857258}
   _particleSystem: {fileID: 3176720927751617039}
   _outline: {fileID: 1140211513028831844}

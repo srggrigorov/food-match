@@ -2,8 +2,8 @@
 using Cysharp.Threading.Tasks;
 using FoodMatch.Game;
 using FoodMatch.Settings;
+using FoodMatch.Utils;
 using UnityEngine.SceneManagement;
-using Zenject;
 namespace FoodMatch.Menu
 {
     public class LevelLoaderService

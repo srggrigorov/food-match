@@ -1,5 +1,7 @@
 using Cysharp.Threading.Tasks;
+using FoodMatch.Game;
 using FoodMatch.Settings;
+using FoodMatch.Utils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Zenject;

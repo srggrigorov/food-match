@@ -3,8 +3,8 @@ using Cysharp.Threading.Tasks;
 using FoodMatch.Input;
 using FoodMatch.Settings;
 using FoodMatch.UI;
+using FoodMatch.Utils;
 using UnityEngine.SceneManagement;
-using Zenject;
 
 namespace FoodMatch.Game
 {

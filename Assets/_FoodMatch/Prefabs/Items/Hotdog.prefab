@@ -5026,10 +5026,11 @@ MonoBehaviour:
   <ItemType>k__BackingField: 4
   <Transform>k__BackingField: {fileID: 8335296854147640174}
   <Rigidbody>k__BackingField: {fileID: -87844022998195533}
-  _colliders: []
+  _colliders:
+  - {fileID: 5163506059977203231}
   _renderer: {fileID: 5382518857447682237}
   _particleSystem: {fileID: 7910291872808568723}
-  _outline: {fileID: 545122759598691460}
+  _outline: {fileID: 1945864224231156532}
   _scaleModifier: 1.2
   _scaleChangeDuration: 0.2
 --- !u!54 &-87844022998195533
@@ -5118,7 +5119,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: fdc7d8dffa381b54cb7740b8761d54c0,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 545122759598691460}
+      addedObject: {fileID: 1945864224231156532}
   m_SourcePrefab: {fileID: 100100000, guid: fdc7d8dffa381b54cb7740b8761d54c0, type: 3}
 --- !u!23 &5382518857447682237 stripped
 MeshRenderer:
@@ -5132,7 +5133,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5382518857449711837}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &545122759598691460
+--- !u!114 &1945864224231156532
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
