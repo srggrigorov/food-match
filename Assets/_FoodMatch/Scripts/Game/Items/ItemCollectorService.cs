@@ -88,9 +88,11 @@ namespace FoodMatch.Game
 
         private void CheckForTripleItems(Item pickedItem, int indexOfItem)
         {
+            bool tripleCollected = false;
             if (indexOfItem > 1 && pickedItem.ItemType == _itemsInSlots[indexOfItem - 1].ItemType &&
                 pickedItem.ItemType == _itemsInSlots[indexOfItem - 2].ItemType)
             {
+                _itemsInSlots[indexOfItem] = _itemsInSlots[indexOfItem - 1] = _itemsInSlots[indexOfItem - 2] = null;
                 for (int i = indexOfItem + 1; i < _itemsInSlots.Length; i++)
                 {
                     _itemsInSlots[i - 3] = _itemsInSlots[i];
@@ -98,9 +100,10 @@ namespace FoodMatch.Game
                 }
 
                 OnTripletCollected?.Invoke(pickedItem, indexOfItem);
+                tripleCollected = true;
             }
 
-            if (_itemsInSlots.Count(x => x == null) == 0)
+            if (_itemsInSlots.Count(x => x == null) == 0 && !tripleCollected)
             {
                 OnDefeat?.Invoke();
             }
